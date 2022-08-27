@@ -1,8 +1,8 @@
 import requests
 import json
 
-cookie = '' -- ur cookie duh
-robloxId = 27628965 -- ur roblox id
+cookie = '' #ur cookie duh
+robloxId = 27628965 #ur roblox id
 
 session = requests.Session()
 session.cookies['.ROBLOSECURITY'] = cookie
